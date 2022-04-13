@@ -94,5 +94,4 @@ Debug=YES
 ``` to```bash
  ssmtp.conf
 ``` - it resulted in more detailed information being logged to ```bash
-/var/log/mail.log
-```. 
+/var/log/mail.log```. 
