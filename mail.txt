@@ -1,0 +1,7 @@
+To: user@gmail.com
+From: "whateverYaWant" <user@gmail.com>
+Subject: Some Notifying Email
+MIME-Version: 1.0
+Content-Type: text/plain
+
+Body of your email goes here! Hello world!
