@@ -82,3 +82,17 @@ MAILTO=user@qmail.com
 00 16 * * 1,2,3,4,5 /home/scripts/loop_off_servers.sh
 00 6 * * 1,2,3,4,5 /home/scripts/loop_on_servers.sh
 ```
+
+If have some problem...
+----------------
+sending mail via commandline worked fine, but no mail was sent through crontab. Fixed it by changing ```bash
+FromLineOverride to NO 
+```in ```bash
+/etc/ssmtp/ssmtp.conf
+```. During debugging, it was also helpful to add ```bash
+Debug=YES
+``` to```bash
+ ssmtp.conf
+``` - it resulted in more detailed information being logged to ```bash
+/var/log/mail.log
+```. 

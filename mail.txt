@@ -1,4 +1,4 @@
-To: user@gmail.com
+To: user@quersystem.com
 From: "whateverYaWant" <user@gmail.com>
 Subject: Some Notifying Email
 MIME-Version: 1.0
